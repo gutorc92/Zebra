@@ -6,7 +6,6 @@ import java.util.List;
 import junit.framework.Assert;
 
 import org.junit.Before;
-import org.junit.Test;
 
 import br.com.zebra.model.Card;
 import br.com.zebra.model.Hand;
@@ -22,7 +21,7 @@ public class HandTest {
 		deck = new ArrayList<Card>();
 	}
 	
-	@Test
+	
 	public void setSuit(){
 		Card card = new Card();
 		card.setSuit(2);
@@ -31,7 +30,7 @@ public class HandTest {
 		Assert.assertEquals(2, 2);
 	}
 	
-	@Test
+	
 	public void testPlay(){
 		Card card = new Card();
 		card.setValue(5);

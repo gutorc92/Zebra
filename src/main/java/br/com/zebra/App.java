@@ -25,6 +25,6 @@ public class App
         }
         t.play();
         
-        
+        scanner.close();
     }
 }

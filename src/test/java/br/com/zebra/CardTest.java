@@ -1,7 +1,7 @@
 package br.com.zebra;
 
-import junit.framework.Assert;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import br.com.zebra.model.Card;
@@ -23,7 +23,7 @@ public class CardTest {
 		Assert.assertEquals("This shoud be equal", 0, card.getStrength());
 		card.setSuit(4);
 		card.setStrength(3);
-		Assert.assertEquals("This shoud be equal", 4, card.getStrength());
+		Assert.assertEquals("This shoud be equal", 10, card.getStrength());
 	}
 	
 	@Test

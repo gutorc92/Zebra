@@ -10,6 +10,10 @@ import br.com.zebra.InterfaceGuess;
 import br.com.zebra.InterfaceTablePoints;
 
 public class Table {
+	
+	private int id;
+
+	private String name;
 
 	private int numPlayers;
 	
@@ -78,5 +82,18 @@ public class Table {
 		
 		
 	}
+	
+	public void setId(int id){
+		this.id = id;
+	}
+	
+	public int getId(){
+		return this.id;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
 	
 }
